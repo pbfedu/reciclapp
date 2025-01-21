@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+h1, h2 {
+    color: #00796b;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #00796b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #004d40;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004d40;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #e0f2f1, #b2dfdb);
+}
+
+/* Carrusel */
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    margin: 2rem auto;
+    height: 220px; /* Ajusta según tus necesidades */
+}
+
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    animation: slide 10s linear infinite;
+}
+
+.carousel img {
+    height: 200px;
+    border-radius: 10px;
+    flex-shrink: 0; /* Evita que las imágenes se redimensionen */
+}
+
+/* Animación carrusel */
+@keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Municipios */
+.municipis-section {
+    text-align: center;
+    padding: 2rem 0;
+    background: #e8f5e9;
+}
+
+.municipis-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.municipi-button {
+    background-color: #004d40;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.municipi-button:hover {
+    background-color: #00796b;
+}
