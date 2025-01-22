@@ -6,9 +6,9 @@ Al Baix Llobregat, la gestió de residus electrònics és una tasca compartida e
 
 # Com Contribuir?
 Aquest projecte està allotjat a GitHub i és de codi obert. Si vols contribuir, pots:
-· Reportar problemes o errors a través del panell d'incidències (issues).
-· Afegir millores o noves funcionalitats enviant una petició de canvi (pull request).
-· Proporcionar traduccions o millores al contingut en català.
+### · Reportar problemes o errors a través del panell d'incidències (issues).
+### · Afegir millores o noves funcionalitats enviant una petició de canvi (pull request).
+### · Proporcionar traduccions o millores al contingut en català.
 
 # Llicència
 Aquest projecte està distribuït sota la Llicència MIT. Pots utilitzar-lo lliurement, sempre respectant els termes especificats.
